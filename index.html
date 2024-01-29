@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Task</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="index.js" type="module"></script>
+		<script src="task/task.js" type="module"></script>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		/>
+	</head>
+	<body>
+		<div class="wrapper fadeInDown pt-4">
+			<div id="formContent">
+				<!-- Login Form -->
+				<form id="login-form" action="https://danit.com.ua/login-json">
+					<input
+						type="text"
+						class="fadeIn second"
+						name="login"
+						placeholder="login"
+						required
+					/>
+					<input
+						type="text"
+						class="fadeIn third"
+						name="password"
+						placeholder="password"
+						required
+					/>
+					<input type="submit" class="fadeIn fourth" value="Log In" />
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
